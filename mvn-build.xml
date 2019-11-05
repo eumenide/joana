@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="joana" default="all-jars-and-clean" basedir="." xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+	<description>
+    Main ant file for the Joana IFC framework. Jar files are generated in dist/.
+	</description>
+
+	<!-- set joana properties -->
+	<property name="joana.base.dir" location="." />
+	<!-- set global properties for this build -->
+	<property file="${joana.base.dir}/joana-project-location.properties" />
+
+    <path id="maven-ant-tasks.classpath" path="lib/maven-ant-tasks-2.1.3.jar" />
+    <typedef resource="org/apache/maven/artifact/ant/antlib.xml" uri="antlib:org.apache.maven.artifact.ant" classpathref="maven-ant-tasks.classpath" />
+
+
+	<target name="all-jars-and-clean" depends="all-jars,mvninstall,clean" />
+
+	<target name="all-jars" depends="joana-jars,copy-to-project-jars,webstart-jars" />
+	<target name="joana-jars" depends="joana.api,joana.wala.core,joana.wala.dictionary,joana.ifc.sdg.core,joana.wala.jodroid" />
+	<target name="copy-to-project-jars" depends="joana.api.test,joana.ui.wala.flowless" />
+	<target name="webstart-jars" depends="joana.ui.ifc.wala.console,joana.ui.ifc.sdg.graphviewer" />
+
+	<target name="all-deploy" depends="joana.ui.ifc.wala.console_deploy,joana.ui.ifc.sdg.graphviewer_deploy" />
+    <target name="mvninstall" depends="source-jars">
+        <artifact:pom id="joanawalacore.pom" groupId="joana" artifactId="joana.wala.core" version="1.0">
+          <license name="apache" url="http://www.apache.org"/>
+        </artifact:pom>
+        <artifact:writepom pomRefId="joanawalacore.pom" file="${joana.dist.dir}/joana.wala.core-pom.xml" />
+        <artifact:pom id="joana.wala.core-dist.pom" file="${joana.dist.dir}/joana.wala.core-pom.xml" />
+        <artifact:install file="${joana.dist.dir}/joana.wala.core.jar">
+            <pom refid="joana.wala.core-dist.pom"/>
+            <attach file="${joana.dist.dir}/joana.wala.core-source.jar" type="jar" classifier="sources"/>
+        </artifact:install>
+    </target>
+
+	<target name="source-jars" depends="all-jars">
+        <jar jarfile="${joana.dist.dir}/joana.wala.core-source.jar" basedir="${joana.dist.dir}/joana.wala.core/sources">
+			<include name="**/*.java"/><!--只将java文件打包-->
+		</jar>
+	</target>
+
+	<target name="joana.api">
+		<ant antfile="${joana.api.base.dir}/build.xml" target="fulljar" inheritall="false" />
+	</target>
+
+	<target name="joana.api_src">
+		<ant antfile="${joana.api.base.dir}/build.xml" target="make-source-dist" inheritall="false" />
+	</target>
+
+
+	<target name="joana.api.test_runtests">
+			<ant antfile="${joana.api.test.base.dir}/build.xml" target="test" inheritall="false">
+				<property name="joana.base.dir" location="${joana.base.dir}" />
+			</ant>
+	</target>
+
+	<target name="joana.api.test_build_and_runtests">
+		<ant antfile="${joana.api.test.base.dir}/build.xml" target="build_and_test" inheritall="false">
+		<property name="joana.base.dir" location="${joana.base.dir}" />
+		</ant>
+	</target>
+
+	<target name="joana.wala.eval_build_and_runtests">
+		<ant antfile="${joana.wala.eval.base.dir}/build.xml" target="build_and_test" inheritall="false">
+		<property name="joana.base.dir" location="${joana.base.dir}" />
+		</ant>
+	</target>
+
+	<target name="joana.api_clean">
+		<ant antfile="${joana.api.base.dir}/build.xml" target="clean" inheritall="false" />
+	</target>
+
+	<target name="joana.wala.core">
+		<ant antfile="${joana.wala.core.base.dir}/build-debug.xml" target="fulljar" inheritall="false" />
+	</target>
+
+    <target name="joana.wala.jodroid">
+		<ant antfile="${joana.wala.jodroid.base.dir}/build.xml" target="fulljar" inheritall="false" />
+	</target>
+
+	<target name="joana.wala.core_clean">
+		<ant antfile="${joana.wala.core.base.dir}/build.xml" target="clean" inheritall="false" />
+	</target>
+
+	<target name="joana.wala.dictionary">
+		<ant antfile="${joana.wala.dictionary.base.dir}/build.xml" target="fulljar" inheritall="false" />
+	</target>
+
+	<target name="joana.wala.dictionary_clean">
+		<ant antfile="${joana.wala.dictionary.base.dir}/build.xml" target="clean" inheritall="false" />
+	</target>
+
+	<target name="joana.ifc.sdg.core">
+		<ant antfile="${joana.ifc.sdg.core.base.dir}/build.xml" target="fulljar" inheritall="false" />
+	</target>
+
+	<target name="joana.ifc.sdg.core_clean">
+		<ant antfile="${joana.ifc.sdg.core.base.dir}/build.xml" target="clean" inheritall="false" />
+	</target>
+
+	<target name="joana.api.test">
+		<ant antfile="${joana.api.test.base.dir}/build.xml" target="copy_joana_api" inheritall="false" />
+	</target>
+
+	<target name="joana.api.test_clean">
+		<ant antfile="${joana.api.test.base.dir}/build.xml" target="clean" inheritall="false" />
+	</target>
+
+	<target name="joana.ui.wala.flowless">
+		<ant antfile="${joana.ui.wala.flowless.base.dir}/build.xml" target="copy_joana_wala_dictionary" inheritall="false" />
+	</target>
+
+	<target name="joana.ui.wala.flowless_clean">
+		<ant antfile="${joana.ui.wala.flowless.base.dir}/build.xml" target="clean" inheritall="false" />
+	</target>
+
+	<target name="joana.ui.ifc.wala.console">
+		<ant antfile="${joana.ui.ifc.wala.console.base.dir}/build.xml" target="fulljar" inheritall="false" />
+	</target>
+
+	<target name="joana.ui.ifc.wala.console_clean">
+		<ant antfile="${joana.ui.ifc.wala.console.base.dir}/build.xml" target="clean" inheritall="false" />
+	</target>
+
+	<target name="joana.ui.ifc.wala.console_deploy">
+		<ant antfile="${joana.ui.ifc.wala.console.base.dir}/build.xml" target="deploy" inheritall="false" />
+	</target>
+
+	<target name="joana.ui.ifc.sdg.graphviewer">
+		<ant antfile="${joana.ui.ifc.sdg.graphviewer.base.dir}/build.xml" target="fulljar" inheritall="false" />
+	</target>
+
+	<target name="joana.ui.ifc.sdg.graphviewer_clean">
+		<ant antfile="${joana.ui.ifc.sdg.graphviewer.base.dir}/build.xml" target="clean" inheritall="false" />
+	</target>
+
+	<target name="joana.ui.ifc.sdg.graphviewer_deploy">
+		<ant antfile="${joana.ui.ifc.sdg.graphviewer.base.dir}/build.xml" target="deploy" inheritall="false" />
+	</target>
+
+	<target name="clean" depends="joana.api_clean,joana.wala.core_clean,joana.wala.dictionary_clean,joana.ifc.sdg.core_clean,joana.api.test_clean,joana.ui.wala.flowless_clean,joana.ui.ifc.wala.console_clean,joana.ui.ifc.sdg.graphviewer_clean" />
+
+	<target name="full_clean">
+		<delete dir="${joana.dist.dir}" />
+	</target>
+
+
+    <!-- SOURCES
+        contrib/wala/com.ibm.wala.cast/source/java
+        contrib/wala/com.ibm.wala.ide.tests/src
+        contrib/wala/com.ibm.wala.core/src
+        contrib/wala/com.ibm.wala.ide/src
+        contrib/wala/com.ibm.wala.util/src
+        contrib/wala/com.ibm.wala.shrike/src
+        contrib/wala/com.ibm.wala.ide.jdt/source
+        contrib/wala/com.ibm.wala.cast.java/src
+        contrib/wala/com.ibm.wala.dalvik/src
+    -->
+	<target name="doc-wala" >
+        <javadoc sourcepath="contrib/wala/com.ibm.wala.cast/source/java:contrib/wala/com.ibm.wala.ide.tests/src:contrib/wala/com.ibm.wala.core/src:contrib/wala/com.ibm.wala.ide/src:contrib/wala/com.ibm.wala.util/src:contrib/wala/com.ibm.wala.shrike/src:contrib/wala/com.ibm.wala.ide.jdt/source:contrib/wala/com.ibm.wala.cast.java/src:contrib/wala/com.ibm.wala.dalvik/src" destdir="doc/wala" packagenames="*" >
+            <arg value="-author"/>
+            <arg value="-version"/>
+        </javadoc>
+	</target>
+
+	<target name="init-wala" description="initialize wala by downloading needed jars">
+		<ant antfile="${com.ibm.wala.cast.base.dir}/build.xml" inheritall="false"/>
+		<ant antfile="${com.ibm.wala.dalvik.base.dir}/build.xml" inheritall="false"/>
+	</target>
+
+
+</project>
