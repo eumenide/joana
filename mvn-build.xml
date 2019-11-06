@@ -22,25 +22,39 @@
 
 	<target name="all-deploy" depends="joana.ui.ifc.wala.console_deploy,joana.ui.ifc.sdg.graphviewer_deploy" />
     <target name="mvninstall" depends="source-jars">
-        <artifact:pom id="joanawalacore.pom" groupId="joana" artifactId="joana.wala.core" version="1.0">
+        <mkdir dir="${joana.dist.dir}/pom"/>
+        <artifact:pom id="joana.wala.core.pom" groupId="joana" artifactId="joana.wala.core" version="1.0">
           <license name="apache" url="http://www.apache.org"/>
         </artifact:pom>
-        <artifact:writepom pomRefId="joanawalacore.pom" file="${joana.dist.dir}/joana.wala.core-pom.xml" />
-        <artifact:pom id="joana.wala.core-dist.pom" file="${joana.dist.dir}/joana.wala.core-pom.xml" />
+        <artifact:writepom pomRefId="joana.wala.core.pom" file="${joana.dist.dir}/pom/joana.wala.core-pom.xml" />
+        <artifact:pom id="joana.wala.core-dist.pom" file="${joana.dist.dir}/pom/joana.wala.core-pom.xml" />
         <artifact:install file="${joana.dist.dir}/joana.wala.core.jar">
             <pom refid="joana.wala.core-dist.pom"/>
             <attach file="${joana.dist.dir}/joana.wala.core-source.jar" type="jar" classifier="sources"/>
         </artifact:install>
+
+        <artifact:pom id="joana.api.pom" groupId="joana" artifactId="joana.api" version="1.0">
+          <license name="apache" url="http://www.apache.org"/>
+        </artifact:pom>
+        <artifact:writepom pomRefId="joana.api.pom" file="${joana.dist.dir}/pom/joana.api-pom.xml" />
+        <artifact:pom id="joana.api-dist.pom" file="${joana.dist.dir}/pom/joana.api-pom.xml" />
+        <artifact:install file="${joana.dist.dir}/joana.api.jar">
+            <pom refid="joana.api-dist.pom"/>
+            <attach file="${joana.dist.dir}/joana.api-source.jar" type="jar" classifier="sources"/>
+        </artifact:install>
     </target>
 
 	<target name="source-jars" depends="all-jars">
+        <jar jarfile="${joana.dist.dir}/joana.api-source.jar" basedir="${joana.dist.dir}/joana.api/sources">
+			<include name="**/*.java"/><!--只将java文件打包-->
+		</jar>
         <jar jarfile="${joana.dist.dir}/joana.wala.core-source.jar" basedir="${joana.dist.dir}/joana.wala.core/sources">
 			<include name="**/*.java"/><!--只将java文件打包-->
 		</jar>
 	</target>
 
 	<target name="joana.api">
-		<ant antfile="${joana.api.base.dir}/build.xml" target="fulljar" inheritall="false" />
+		<ant antfile="${joana.api.base.dir}/build-debug.xml" target="fulljar" inheritall="false" />
 	</target>
 
 	<target name="joana.api_src">

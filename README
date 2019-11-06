@@ -50,8 +50,8 @@ unauthorized user of the system
 
 1. Fetch submodule sources
 
-git submodule init
-git submodule update
+  git submodule init
+  git submodule update
 
 2. Setup WALA
 
@@ -63,7 +63,7 @@ git submodule update
 
 3. Run ant
 
-ant
+  ant -f mvn-build.xml
 
 4. Jar-files should have been generated in dist/
 
