@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.textual.highlight/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.textual.highlight">
+      <sourceFolder url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.textual.highlight/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.graph" />
+    <orderEntry type="module" module-name="joana.util" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.ide.jsdt.tests/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.ide.jsdt.tests">
+      <sourceFolder url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.ide.jsdt.tests/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js.rhino" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide.jsdt" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide.tests" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js.rhino" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide.jsdt" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide.tests" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>

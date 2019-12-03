@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="223b4ecd-0a47-4284-bc5b-9b412882ac90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/wala" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/wala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wala/joana.wala.core/src/edu/kit/joana/wala/core/SDGBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/wala/joana.wala.core/src/edu/kit/joana/wala/core/SDGBuilder.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.java/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.java.ecj/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.java.test/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.java.test.data/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.js/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.js.html.nu_validator/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.js.nodejs/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.js.nodejs.test/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.js.rhino/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.js.rhino.test/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.js.test/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.js.test.data/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.cast.test/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.core.testdata/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.core.tests/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.dalvik/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.dalvik.test/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.ide/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.ide.jdt/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.ide.jdt.test/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.ide.jsdt/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.ide.jsdt.tests/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.ide.tests/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.ide_feature/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.scandroid/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.shrike/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.tests.ide_feature/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.tests_feature/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala.util/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/wala/com.ibm.wala_feature/bin/" />
+    <ignored path="$PROJECT_DIR$/api/joana.api/bin/" />
+    <ignored path="$PROJECT_DIR$/api/joana.api.annotations.ignore/bin/" />
+    <ignored path="$PROJECT_DIR$/api/joana.api.annotations.passon/bin/" />
+    <ignored path="$PROJECT_DIR$/api/joana.api.test/bin/" />
+    <ignored path="$PROJECT_DIR$/api/joana.api.testdata/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/apktool/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/lib/bin/" />
+    <ignored path="$PROJECT_DIR$/deprecated/jSDG/bin/" />
+    <ignored path="$PROJECT_DIR$/deprecated/jSDG-GUI/bin/" />
+    <ignored path="$PROJECT_DIR$/example/joana.example.many-small-progs/bin/" />
+    <ignored path="$PROJECT_DIR$/example/joana.example.tiny-special-tests/bin/" />
+    <ignored path="$PROJECT_DIR$/ifc/sdg/joana.ifc.sdg.core/bin/" />
+    <ignored path="$PROJECT_DIR$/ifc/sdg/joana.ifc.sdg.graph/bin/" />
+    <ignored path="$PROJECT_DIR$/ifc/sdg/joana.ifc.sdg.irlsod/bin/" />
+    <ignored path="$PROJECT_DIR$/ifc/sdg/joana.ifc.sdg.mhpoptimization/bin/" />
+    <ignored path="$PROJECT_DIR$/ifc/sdg/joana.ifc.sdg.tests/bin/" />
+    <ignored path="$PROJECT_DIR$/ifc/sdg/joana.ifc.sdg.util/bin/" />
+    <ignored path="$PROJECT_DIR$/ifc/wala/joana.ifc.wala.sdpn/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/annotations/joana.ui.annotations/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.compiler/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.graphviewer/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.gui/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.latticeeditor/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.textual.highlight/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.threadviewer/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.viewer/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/wala/joana.ui.ifc.wala.console/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/wala/joana.ui.ifc.wala.console.test/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/ifc/wala/joana.ui.ifc.wala.rifl/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/wala/joana.ui.wala.easyifc/bin/" />
+    <ignored path="$PROJECT_DIR$/ui/wala/joana.ui.wala.flowless/bin/" />
+    <ignored path="$PROJECT_DIR$/util/joana.util/bin/" />
+    <ignored path="$PROJECT_DIR$/util/joana.util.test/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.core/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.dictionary/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.eval/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.flowless/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.jodroid/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.jsdg/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.modular.testdata/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.summary/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.test/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.testdata/bin/" />
+    <ignored path="$PROJECT_DIR$/wala/joana.wala.util/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/easyifc-demo-workspace/projects/PossibilisticLeaks/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/easyifc-demo-workspace/projects/ProbabilisticLeaks/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/easyifc-demo-workspace/projects/ProbabilisticOK/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/easyifc-demo-workspace/projects/SequentialLeaks/bin/" />
+    <ignored path="$PROJECT_DIR$/ifc/sdg/joana.ifc.sdg.graph/src/edu/kit/joana/ifc/sdg/graph/slicer/bin/" />
+    <ignored path="$PROJECT_DIR$/contrib/easyifc-demo-workspace/projects/SmartHomeJavaProject/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/impl/SubtypesEntrypoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+              <folding>
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/impl/DefaultEntrypoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/EntrypointFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/impl/SubtypesEntrypointFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/Entrypoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/impl/SubtypesEntrypointFactory.java" />
+        <option value="$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/EntryPointFactory.java" />
+        <option value="$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/EntrypointFactory.java" />
+        <option value="$PROJECT_DIR$/wala/joana.wala.core/src/edu/kit/joana/wala/core/SDGBuilder.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../java_lib/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Store\document\all_my_work\java_lib\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="ibm" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="ibm" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="ibm" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="com.ibm.wala.core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="ibm" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="com.ibm.wala.core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="ibm" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="com.ibm.wala.core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="ibm" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="com.ibm.wala.core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wala" type="462c0819:PsiDirectoryNode" />
+              <item name="ipa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="ibm" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="com.ibm.wala.core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wala" type="462c0819:PsiDirectoryNode" />
+              <item name="ipa" type="462c0819:PsiDirectoryNode" />
+              <item name="callgraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="ibm" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="com.ibm.wala.core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wala" type="462c0819:PsiDirectoryNode" />
+              <item name="ipa" type="462c0819:PsiDirectoryNode" />
+              <item name="callgraph" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joana" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joana" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joana" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="joana.wala.core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joana" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="joana.wala.core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joana" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="wala" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="joana.wala.core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/eclipse" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29452652" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="223b4ecd-0a47-4284-bc5b-9b412882ac90" name="Default Changelist" comment="" />
+      <created>1575374307071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575374307071</updated>
+      <workItem from="1575374522609" duration="2097000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2097000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="CDI" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/Entrypoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/impl/DefaultEntrypoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/EntrypointFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/impl/SubtypesEntrypointFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/wala/com.ibm.wala.core/src/com/ibm/wala/ipa/callgraph/impl/SubtypesEntrypoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding>
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wala/joana.wala.core/src/edu/kit/joana/wala/core/SDGBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="921" column="49" selection-start-line="920" selection-start-column="19" selection-end-line="921" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#78957#78958#0" expanded="true" />
+            <element signature="e#79012#79013#0" expanded="true" />
+            <element signature="e#80617#80618#0" expanded="true" />
+            <element signature="e#80639#80640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29452652" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29452652" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>ECLIPSE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29452652" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29452652" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SmartHomeJavaProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29452652" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29452652" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

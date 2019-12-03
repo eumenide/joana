@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/wala/joana.wala.test/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/wala/joana.wala.test">
+      <sourceFolder url="file://$MODULE_DIR$/wala/joana.wala.test/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library name="junit4">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="joana.wala.flowless" />
+    <orderEntry type="module" module-name="joana.wala.core" />
+    <orderEntry type="module" module-name="joana.wala.jsdg" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="joana.wala.dictionary" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.graph" />
+    <orderEntry type="module" module-name="joana.contrib.lib" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.util" />
+    <orderEntry type="module" module-name="joana.util" />
+    <orderEntry type="module" module-name="joana.wala.util" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+  </component>
+</module>

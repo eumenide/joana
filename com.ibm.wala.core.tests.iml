@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.core.tests/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.core.tests">
+      <sourceFolder url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.core.tests/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.core.tests/dat" isTestSource="false" />
+    </content>
+    <orderEntry type="module" module-name="com.ibm.wala.shrike" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide.jdt" />
+    <orderEntry type="module" module-name="com.ibm.wala.core.testdata" />
+    <orderEntry type="module" module-name="com.ibm.wala.shrike" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide.jdt" />
+    <orderEntry type="module" module-name="com.ibm.wala.core.testdata" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>

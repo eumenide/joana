@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/api/joana.api.annotations.passon/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/api/joana.api.annotations.passon">
+      <sourceFolder url="file://$MODULE_DIR$/api/joana.api.annotations.passon/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="module" module-name="joana.ui.annotations" />
+  </component>
+</module>

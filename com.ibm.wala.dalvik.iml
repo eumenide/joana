@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/dexlib2-2.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/util-2.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/guava-22.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/commons-cli-1.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/commons-io-2.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/logback-classic-1.0.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/logback-core-1.0.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/slf4j-api-1.7.2.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik">
+      <sourceFolder url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="dexlib2-2.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/dexlib2-2.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="util-2.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/util-2.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="guava-22.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/guava-22.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="commons-cli-1.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/commons-cli-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="commons-io-2.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/commons-io-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.shrike" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.shrike" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="module-library">
+      <library name="logback-classic-1.0.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/logback-classic-1.0.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="logback-core-1.0.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/logback-core-1.0.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.7.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/contrib/wala/com.ibm.wala.dalvik/lib/slf4j-api-1.7.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

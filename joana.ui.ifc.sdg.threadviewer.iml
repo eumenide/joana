@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.threadviewer/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.threadviewer">
+      <sourceFolder url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.threadviewer/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.graph" />
+    <orderEntry type="module" module-name="joana.api" />
+    <orderEntry type="module" module-name="joana.ui.ifc.sdg.textual.highlight" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.util" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.mhpoptimization" />
+    <orderEntry type="module" module-name="joana.contrib.lib" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="joana.util" />
+  </component>
+</module>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/ifc/sdg/joana.ifc.sdg.util/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/ifc/sdg/joana.ifc.sdg.util">
+      <sourceFolder url="file://$MODULE_DIR$/ifc/sdg/joana.ifc.sdg.util/src" isTestSource="false" />
+    </content>
+    <orderEntry type="module" module-name="joana.ifc.sdg.graph" />
+    <orderEntry type="module" module-name="joana.contrib.lib" />
+    <orderEntry type="module" module-name="joana.util" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>

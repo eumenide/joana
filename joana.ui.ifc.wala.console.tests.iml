@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/ui/ifc/wala/joana.ui.ifc.wala.console.test/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/ui/ifc/wala/joana.ui.ifc.wala.console.test">
+      <sourceFolder url="file://$MODULE_DIR$/ui/ifc/wala/joana.ui.ifc.wala.console.test/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="junit4">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="joana.ui.ifc.wala.console" />
+    <orderEntry type="module" module-name="joana.api" />
+    <orderEntry type="module" module-name="joana.util" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.core" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>

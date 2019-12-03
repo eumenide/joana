@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://D:\Store\document\all_my_work\CZY\bishe\joana\contrib\wala\com.ibm.wala.cast.js.test.data\examples-src" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.cast.js.rhino.test/harness-src" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.cast.js.rhino.test/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.cast.js.rhino.test">
+      <sourceFolder url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.cast.js.rhino.test/harness-src" isTestSource="false" />
+    </content>
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js.rhino" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js.test" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.test" />
+    <orderEntry type="module" module-name="com.ibm.wala.core.tests" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js.test.data" />
+    <orderEntry type="module" module-name="com.ibm.wala.shrike" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js.rhino" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js.test" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.test" />
+    <orderEntry type="module" module-name="com.ibm.wala.core.tests" />
+    <orderEntry type="module" module-name="com.ibm.wala.cast.js.test.data" />
+    <orderEntry type="module" module-name="com.ibm.wala.shrike" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="module-library">
+      <library name="examples-src">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/contrib/wala/com.ibm.wala.cast.js.test.data/examples-src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>

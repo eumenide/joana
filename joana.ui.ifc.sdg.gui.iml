@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.gui/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.gui">
+      <sourceFolder url="file://$MODULE_DIR$/ui/ifc/sdg/joana.ui.ifc.sdg.gui/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module" module-name="joana.ui.ifc.sdg.textual.highlight" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.core" />
+    <orderEntry type="module" module-name="joana.ui.ifc.sdg.latticeeditor" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.graph" />
+    <orderEntry type="module" module-name="joana.deprecated.jsdg.gui" />
+    <orderEntry type="module" module-name="joana.contrib.lib" />
+    <orderEntry type="module" module-name="joana.util" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

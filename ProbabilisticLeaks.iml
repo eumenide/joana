@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <conelement value="joana.ui.wala.easyifc.JOANA_ANNOTATIONS" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/contrib/easyifc-demo-workspace/projects/ProbabilisticLeaks/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/contrib/easyifc-demo-workspace/projects/ProbabilisticLeaks/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/contrib/easyifc-demo-workspace/projects/ProbabilisticLeaks">
+      <sourceFolder url="file://$MODULE_DIR$/contrib/easyifc-demo-workspace/projects/ProbabilisticLeaks/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" name="joana.ui.wala.easyifc.JOANA_ANNOTATIONS" level="application" />
+  </component>
+</module>

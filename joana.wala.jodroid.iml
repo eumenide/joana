@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/wala/joana.wala.jodroid/lib/commons-cli.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/wala/joana.wala.jodroid/lib/logback-classic-1.0.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/wala/joana.wala.jodroid/lib/logback-core-1.0.9.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/wala/joana.wala.jodroid/src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/wala/joana.wala.jodroid/res" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/wala/joana.wala.jodroid/res/wala" expected_position="2" />
+      <src_folder value="file://$MODULE_DIR$/wala/joana.wala.jodroid/analysis-libs" expected_position="3" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/wala/joana.wala.jodroid/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/wala/joana.wala.jodroid">
+      <sourceFolder url="file://$MODULE_DIR$/wala/joana.wala.jodroid/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wala/joana.wala.jodroid/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wala/joana.wala.jodroid/res/wala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wala/joana.wala.jodroid/analysis-libs" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module" module-name="joana.contrib.apktool" />
+    <orderEntry type="module" module-name="com.ibm.wala.core" />
+    <orderEntry type="module" module-name="com.ibm.wala.ide" />
+    <orderEntry type="module" module-name="com.ibm.wala.shrike" />
+    <orderEntry type="module" module-name="com.ibm.wala.dalvik" />
+    <orderEntry type="module" module-name="joana.wala.core" />
+    <orderEntry type="module" module-name="joana.wala.flowless" />
+    <orderEntry type="module" module-name="joana.ifc.sdg.graph" />
+    <orderEntry type="module" module-name="joana.wala.util" />
+    <orderEntry type="module" module-name="joana.util" />
+    <orderEntry type="module" module-name="joana.contrib.lib" />
+    <orderEntry type="module" module-name="joana.wala.summary" />
+    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="module-library">
+      <library name="commons-cli.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/wala/joana.wala.jodroid/lib/commons-cli.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="logback-classic-1.0.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/wala/joana.wala.jodroid/lib/logback-classic-1.0.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="logback-core-1.0.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/wala/joana.wala.jodroid/lib/logback-core-1.0.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
