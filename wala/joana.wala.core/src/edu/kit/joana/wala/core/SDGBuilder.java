@@ -21,7 +21,6 @@ import java.util.TreeSet;
 import java.util.function.Function;
 
 import com.ibm.wala.ipa.callgraph.*;
-import com.ibm.wala.ipa.callgraph.impl.SubtypesEntrypointFactory;
 import org.jgrapht.DirectedGraph;
 
 import com.google.common.collect.Sets;
@@ -36,7 +35,6 @@ import com.ibm.wala.classLoader.IMethod;
 import com.ibm.wala.escape.TrivialMethodEscape;
 import com.ibm.wala.ipa.callgraph.AnalysisOptions.ReflectionOptions;
 import com.ibm.wala.ipa.callgraph.impl.DelegatingContextSelector;
-import com.ibm.wala.ipa.callgraph.impl.SubtypesEntrypoint;
 import com.ibm.wala.ipa.callgraph.propagation.InstanceKey;
 import com.ibm.wala.ipa.callgraph.propagation.PointerAnalysis;
 import com.ibm.wala.ipa.callgraph.propagation.PropagationCallGraphBuilder;
